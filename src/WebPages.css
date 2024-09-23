@@ -1,0 +1,358 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/********************************Header-Start*********************************/
+
+.headerParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  box-shadow: 0px 0px 5px 0px gray;
+  position: fixed;
+  background-color: white;
+}
+
+.headerTopDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #777777;
+}
+
+.headerTopDiv_Box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  width: 1150px;
+  padding: 10px 0px;
+  font-size: 14px;
+  color: lightgray;
+}
+
+
+.headerTop_Left {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  /* background-color: red; */
+}
+
+.headerTop_Right {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+  /* background-color: red; */
+}
+
+.headerTop_Right span:hover,
+.headerTop_Left span:hover {
+  cursor: pointer;
+  color: #a6a6a6;
+}
+
+
+
+.headerLogoMenuDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1150px;
+  padding: 25px 0px;
+}
+
+.headerLogoDiv_img {
+  width: 150px;
+  cursor: pointer;
+}
+
+.headerMenuDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.headerMenuDiv span:hover {
+  cursor: pointer;
+  color: red;
+}
+
+/********************************Header-End*********************************/
+
+
+/********************************Footer-Start*********************************/
+
+.footerParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #313137;
+  color: lightgray;
+}
+
+.footerParentTop {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 50px;
+  width: 1150px;
+  padding: 85px 0px;
+}
+
+.footerParentTop_Left,
+.footerParentTop_Right {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 280px;
+  /* background-color: red; */
+}
+
+.footerParentTop_LeftTop,
+.footerParentTop_RightTop {
+  font-size: 24px;
+  width: 100%;
+  /* background-color: blue; */
+}
+
+.footerParentTop_LeftBottom {
+  padding-top: 10px;
+  color: grey;
+}
+
+.footerParentTop_RightBottom_box {
+  border-bottom: 1px white dashed;
+  width: 280px;
+  padding: 10px 0px;
+  /* background-color: blue; */
+}
+
+.footerParentTop_RightBottom_box span:hover {
+  cursor: pointer;
+  color: red;
+}
+
+
+.footerParentBottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3d3d40;
+}
+
+.footerParentBottom_Box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  width: 1150px;
+  padding: 40px 0px;
+  font-size: 14px;
+  color: gray;
+}
+
+
+.footerParentBottom_Right {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+  /* background-color: red; */
+}
+
+/********************************Footer-End*********************************/
+
+
+
+/******************************HomePage-Start*******************************/
+
+.homePageParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 200px 0px 50px 0px;
+}
+
+
+.homePageParent_Box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 1150px;
+}
+
+
+.homePage_Top {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 50px;
+}
+
+.homePage_TopLeft img {
+  border-radius: 0.15cm;
+  box-shadow: 1px 1px 5px 0px gray;
+}
+
+
+.homePage_TopRight {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  color: gray;
+}
+
+.homePage_TopRight_heading {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.homePage_TopRight_headingBottom {
+  color: red;
+  font-size: 34px;
+}
+
+.homePage_TopRight_contentUL {
+  list-style-type: none;
+}
+
+.homePage_TopRight_Button {
+  border: 1px solid red;
+  padding: 15px 40px;
+  background-color: red;
+  color: white;
+  margin-top: 20px;
+}
+
+.homePage_TopRight_Button:hover {
+  border: 1px solid gray;
+  background-color: gray;
+  cursor: pointer;
+}
+
+
+
+.homePage_Middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+  padding: 100px 0px 50px 0px;
+}
+
+.homePage_MiddleBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 350px;
+  gap: 20px;
+}
+
+.homePage_MiddleBox_pic {
+  border-radius: 0.15cm;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.homePage_MiddleBox_pic img {
+  width: 25px;
+  border-radius: 0.15cm;
+  box-shadow: 1px 1px 5px 0px gray;
+}
+
+.homePage_MiddleBox_content {
+  font-size: 20px;
+}
+
+.homePage_MiddleBox_button {
+  font-size: 13px;
+  border: 1px solid red;
+  padding: 2px 15px;
+  color: red;
+}
+
+.homePage_MiddleBox_button:hover {
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+}
+
+.homePage_MiddleBox:hover>.homePage_MiddleBox_pic {
+  border: 1px solid black;
+}
+
+/******************************HomePage-End*******************************/
