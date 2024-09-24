@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/RajaNareshPandugayala/SDVS_Technologies/static/css/main.4f4ac9b6.css",
-    "main.js": "/RajaNareshPandugayala/SDVS_Technologies/static/js/main.7c49f603.js",
-    "static/js/453.d860f74a.chunk.js": "/RajaNareshPandugayala/SDVS_Technologies/static/js/453.d860f74a.chunk.js",
-    "static/media/HomePagePic.jpg": "/RajaNareshPandugayala/SDVS_Technologies/static/media/HomePagePic.f4c070fd481c1323e625.jpg",
-    "static/media/logo.jpeg": "/RajaNareshPandugayala/SDVS_Technologies/static/media/logo.83c83552761a7cd3ccb1.jpeg",
-    "static/media/E_yahoo_logo.png": "/RajaNareshPandugayala/SDVS_Technologies/static/media/E_yahoo_logo.556acf8d221ee5079799.png",
-    "static/media/D_goo_logo.png": "/RajaNareshPandugayala/SDVS_Technologies/static/media/D_goo_logo.1c207f9c89ef003e31a5.png",
-    "static/media/B_micro_logo.png": "/RajaNareshPandugayala/SDVS_Technologies/static/media/B_micro_logo.f0f877b1c837b2413f23.png",
-    "index.html": "/RajaNareshPandugayala/SDVS_Technologies/index.html",
-    "main.4f4ac9b6.css.map": "/RajaNareshPandugayala/SDVS_Technologies/static/css/main.4f4ac9b6.css.map",
-    "main.7c49f603.js.map": "/RajaNareshPandugayala/SDVS_Technologies/static/js/main.7c49f603.js.map",
-    "453.d860f74a.chunk.js.map": "/RajaNareshPandugayala/SDVS_Technologies/static/js/453.d860f74a.chunk.js.map"
+    "main.css": "/SDVS_Technologies/static/css/main.4f4ac9b6.css",
+    "main.js": "/SDVS_Technologies/static/js/main.c8aa013a.js",
+    "static/js/453.d860f74a.chunk.js": "/SDVS_Technologies/static/js/453.d860f74a.chunk.js",
+    "static/media/HomePagePic.jpg": "/SDVS_Technologies/static/media/HomePagePic.f4c070fd481c1323e625.jpg",
+    "static/media/logo.jpeg": "/SDVS_Technologies/static/media/logo.83c83552761a7cd3ccb1.jpeg",
+    "static/media/E_yahoo_logo.png": "/SDVS_Technologies/static/media/E_yahoo_logo.556acf8d221ee5079799.png",
+    "static/media/D_goo_logo.png": "/SDVS_Technologies/static/media/D_goo_logo.1c207f9c89ef003e31a5.png",
+    "static/media/B_micro_logo.png": "/SDVS_Technologies/static/media/B_micro_logo.f0f877b1c837b2413f23.png",
+    "index.html": "/SDVS_Technologies/index.html",
+    "main.4f4ac9b6.css.map": "/SDVS_Technologies/static/css/main.4f4ac9b6.css.map",
+    "main.c8aa013a.js.map": "/SDVS_Technologies/static/js/main.c8aa013a.js.map",
+    "453.d860f74a.chunk.js.map": "/SDVS_Technologies/static/js/453.d860f74a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f4ac9b6.css",
-    "static/js/main.7c49f603.js"
+    "static/js/main.c8aa013a.js"
   ]
 }
