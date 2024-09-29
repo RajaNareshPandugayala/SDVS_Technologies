@@ -1,20 +1,29 @@
 {
   "files": {
-    "main.css": "/SDVS_Technologies/static/css/main.4f4ac9b6.css",
-    "main.js": "/SDVS_Technologies/static/js/main.c8aa013a.js",
+    "main.css": "/SDVS_Technologies/static/css/main.c899f8ba.css",
+    "main.js": "/SDVS_Technologies/static/js/main.ec70cf0b.js",
     "static/js/453.d860f74a.chunk.js": "/SDVS_Technologies/static/js/453.d860f74a.chunk.js",
+    "static/media/img23.jpg": "/SDVS_Technologies/static/media/img23.0fcd903a485f045162f0.jpg",
+    "static/media/img25.jpg": "/SDVS_Technologies/static/media/img25.94f7c507c5c77c6d7331.jpg",
+    "static/media/page_tital_bg1.jpg": "/SDVS_Technologies/static/media/page_tital_bg1.924da9ae2bbf11e1d99b.jpg",
+    "static/media/page-title-bg5.jpg": "/SDVS_Technologies/static/media/page-title-bg5.23a71cf1d18a0140449a.jpg",
+    "static/media/site-img126.jpg": "/SDVS_Technologies/static/media/site-img126.334abb9d4c9ffef3f53f.jpg",
+    "static/media/page-title-bg8.jpg": "/SDVS_Technologies/static/media/page-title-bg8.69487ffc6aaa13f1a686.jpg",
+    "static/media/site-img123.jpg": "/SDVS_Technologies/static/media/site-img123.7580085b3ff1a124851b.jpg",
     "static/media/HomePagePic.jpg": "/SDVS_Technologies/static/media/HomePagePic.f4c070fd481c1323e625.jpg",
+    "static/media/site-img124.jpg": "/SDVS_Technologies/static/media/site-img124.d59606de79a58e4b8cf9.jpg",
+    "static/media/site-img125.jpg": "/SDVS_Technologies/static/media/site-img125.9799f7cfd15ee4c30701.jpg",
     "static/media/logo.jpeg": "/SDVS_Technologies/static/media/logo.83c83552761a7cd3ccb1.jpeg",
     "static/media/E_yahoo_logo.png": "/SDVS_Technologies/static/media/E_yahoo_logo.556acf8d221ee5079799.png",
     "static/media/D_goo_logo.png": "/SDVS_Technologies/static/media/D_goo_logo.1c207f9c89ef003e31a5.png",
     "static/media/B_micro_logo.png": "/SDVS_Technologies/static/media/B_micro_logo.f0f877b1c837b2413f23.png",
     "index.html": "/SDVS_Technologies/index.html",
-    "main.4f4ac9b6.css.map": "/SDVS_Technologies/static/css/main.4f4ac9b6.css.map",
-    "main.c8aa013a.js.map": "/SDVS_Technologies/static/js/main.c8aa013a.js.map",
+    "main.c899f8ba.css.map": "/SDVS_Technologies/static/css/main.c899f8ba.css.map",
+    "main.ec70cf0b.js.map": "/SDVS_Technologies/static/js/main.ec70cf0b.js.map",
     "453.d860f74a.chunk.js.map": "/SDVS_Technologies/static/js/453.d860f74a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f4ac9b6.css",
-    "static/js/main.c8aa013a.js"
+    "static/css/main.c899f8ba.css",
+    "static/js/main.ec70cf0b.js"
   ]
 }
