@@ -8,7 +8,7 @@ import HomePageSM5 from "../LogoAndPics/E_yahoo_logo.png"
 import HomePageSM6 from "../LogoAndPics/F_sap.png"
 
 
-function HomePage() {
+function HomePage({ onMenuClick }) {
     return (
         <>
             <div className="homePageParent">
@@ -24,44 +24,46 @@ function HomePage() {
                             <span className="homePage_TopRight_content">Whether you want to develop in-house software applications or you want to outsource your technology needs, we can provide you full-blown support and services both on-site and off-site in the realms of</span>
                             <span className="homePage_TopRight_content">
                                 <ul className="homePage_TopRight_contentUL">
-                                    <li>Consulting</li>
-                                    <li>Training</li>
-                                    <li>Recruitment</li>
-                                    <li>Development</li>
-                                    <li>Support</li>
+                                    <li><i class="fa-solid fa-square-check"></i> Consulting</li>
+                                    <li><i class="fa-solid fa-square-check"></i> Training</li>
+                                    <li><i class="fa-solid fa-square-check"></i> Recruitment</li>
+                                    <li><i class="fa-solid fa-square-check"></i> Development</li>
+                                    <li><i class="fa-solid fa-square-check"></i> Support</li>
                                 </ul>
                             </span>
-                            <span className="homePage_TopRight_Button">Get Started Now!</span>
+                            <a href="#!" onClick={() => onMenuClick('Contact')} className="homePage_TopRight_Button">
+                                Get Started Now!
+                            </a>
                         </div>
                     </div>
                     <div className="homePage_Middle">
                         <div className="homePage_MiddleBox">
-                            <span className="homePage_MiddleBox_pic">
-                                <img src={HomePagePic} className="HomePagePic" alt="logo" />
+                            <span className="homePage_MiddleBox_icons">
+                                <i class="fa-solid fa-desktop"></i>
                             </span>
                             <span className="homePage_MiddleBox_content">IT Consulting Services</span>
-                            <span className="homePage_MiddleBox_button">Read More</span>
+                            <span className="homePage_MiddleBox_button"><a href="#!" onClick={() => onMenuClick('ITConsulting')}>Read More</a></span>
                         </div>
                         <div className="homePage_MiddleBox">
-                            <span className="homePage_MiddleBox_pic">
-                                <img src={HomePagePic} className="HomePagePic" alt="logo" />
+                            <span className="homePage_MiddleBox_icons">
+                                <i class="fa-solid fa-chart-line"></i>
                             </span>
                             <span className="homePage_MiddleBox_content">IT Training Services</span>
-                            <span className="homePage_MiddleBox_button">Read More</span>
+                            <span className="homePage_MiddleBox_button"><a href="#!" onClick={() => onMenuClick('ITTraining')}>Read More</a></span>
                         </div>
                         <div className="homePage_MiddleBox">
-                            <span className="homePage_MiddleBox_pic">
-                                <img src={HomePagePic} className="HomePagePic" alt="logo" />
+                            <span className="homePage_MiddleBox_icons">
+                                <i class="fa-regular fa-image"></i>
                             </span>
                             <span className="homePage_MiddleBox_content">Recruitment</span>
-                            <span className="homePage_MiddleBox_button">Read More</span>
+                            <span className="homePage_MiddleBox_button"><a href="#!" onClick={() => onMenuClick('Recruitment')}>Read More</a></span>
                         </div>
                         <div className="homePage_MiddleBox">
-                            <span className="homePage_MiddleBox_pic">
-                                <img src={HomePagePic} className="HomePagePic" alt="logo" />
+                            <span className="homePage_MiddleBox_icons">
+                                <i class="fa-regular fa-star"></i>
                             </span>
                             <span className="homePage_MiddleBox_content">Development</span>
-                            <span className="homePage_MiddleBox_button">Read More</span>
+                            <span className="homePage_MiddleBox_button"><a href="#!" onClick={() => onMenuClick('Services')}>Read More</a></span>
                         </div>
                     </div>
                     <div className="homePage_Bottom">
