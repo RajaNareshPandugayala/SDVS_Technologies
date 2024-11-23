@@ -31,9 +31,9 @@ function HomePage({ onMenuClick }) {
                                     <li><i class="fa-solid fa-square-check"></i> Support</li>
                                 </ul>
                             </span>
-                            <a href="#!" onClick={() => onMenuClick('Contact')} className="homePage_TopRight_Button">
+                            <span onClick={() => onMenuClick('Contact')} className="homePage_TopRight_Button">
                                 Get Started Now!
-                            </a>
+                            </span>
                         </div>
                     </div>
                     <div className="homePage_Middle">
@@ -42,28 +42,28 @@ function HomePage({ onMenuClick }) {
                                 <i class="fa-solid fa-desktop"></i>
                             </span>
                             <span className="homePage_MiddleBox_content">IT Consulting Services</span>
-                            <span className="homePage_MiddleBox_button"><a href="#!" onClick={() => onMenuClick('ITConsulting')}>Read More</a></span>
+                            <span className="homePage_MiddleBox_button"><span onClick={() => onMenuClick('ITConsulting')}>Read More</span></span>
                         </div>
                         <div className="homePage_MiddleBox">
                             <span className="homePage_MiddleBox_icons">
                                 <i class="fa-solid fa-chart-line"></i>
                             </span>
                             <span className="homePage_MiddleBox_content">IT Training Services</span>
-                            <span className="homePage_MiddleBox_button"><a href="#!" onClick={() => onMenuClick('ITTraining')}>Read More</a></span>
+                            <span className="homePage_MiddleBox_button"><span onClick={() => onMenuClick('ITTraining')}>Read More</span></span>
                         </div>
                         <div className="homePage_MiddleBox">
                             <span className="homePage_MiddleBox_icons">
                                 <i class="fa-regular fa-image"></i>
                             </span>
                             <span className="homePage_MiddleBox_content">Recruitment</span>
-                            <span className="homePage_MiddleBox_button"><a href="#!" onClick={() => onMenuClick('Recruitment')}>Read More</a></span>
+                            <span className="homePage_MiddleBox_button"><span onClick={() => onMenuClick('Recruitment')}>Read More</span></span>
                         </div>
                         <div className="homePage_MiddleBox">
                             <span className="homePage_MiddleBox_icons">
                                 <i class="fa-regular fa-star"></i>
                             </span>
                             <span className="homePage_MiddleBox_content">Development</span>
-                            <span className="homePage_MiddleBox_button"><a href="#!" onClick={() => onMenuClick('Services')}>Read More</a></span>
+                            <span className="homePage_MiddleBox_button"><span onClick={() => onMenuClick('Services')}>Read More</span></span>
                         </div>
                     </div>
                     <div className="homePage_Bottom">

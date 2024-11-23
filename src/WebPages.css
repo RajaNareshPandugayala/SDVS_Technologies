@@ -143,17 +143,17 @@
   font-weight: bold;
 }
 
-.headerMenuDiv a {
+.headerMenuDiv {
   text-decoration: none;
   color: #777777;
 }
 
-.headerMenuDiv a:hover {
+.headerMenuDiv span:hover {
   cursor: pointer;
   color: red;
 }
 
-.headerMenuDiv a.active {
+.headerMenuDiv span.active {
   color: red;
 }
 
@@ -211,13 +211,13 @@
   /* background-color: blue; */
 }
 
-.footerParentTop_RightBottom_box a {
+.footerParentTop_RightBottom_box span {
   color: white;
   text-decoration: none;
   /* background-color: blue; */
 }
 
-.footerParentTop_RightBottom_box span a:hover {
+.footerParentTop_RightBottom_box span:hover {
   cursor: pointer;
   color: red;
 }
@@ -388,7 +388,7 @@
   font-size: 20px;
 }
 
-.homePage_MiddleBox_button a {
+.homePage_MiddleBox_button span {
   font-size: 13px;
   border: 1px solid red;
   padding: 2px 15px;
@@ -396,7 +396,7 @@
   text-decoration: none;
 }
 
-.homePage_MiddleBox_button a:hover {
+.homePage_MiddleBox_button span:hover {
   border: 1px solid black;
   color: black;
   cursor: pointer;

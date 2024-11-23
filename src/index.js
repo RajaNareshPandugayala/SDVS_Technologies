@@ -208,7 +208,7 @@ const App = () => {
 
     // Update the URL path without refreshing the page
     const pathMap = {
-      Home: '/',
+      Home: '/SDVS_Technologies',
       ITConsulting: '/it_consulting',
       ITTraining: '/it_training',
       Recruitment: '/recruitment',

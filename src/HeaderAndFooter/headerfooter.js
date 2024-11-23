@@ -89,49 +89,39 @@ function Header({ onMenuClick, activePage }) {
                     </div>
                     <div className="headerMenuDiv">
                         <span className="headerMenuDiv_Home">
-                            <a
-                                href="#"
-                                onClick={() => onMenuClick('Home')}
+                            <span onClick={() => onMenuClick('Home')}
                                 className={activePage === 'Home' ? 'active' : ''}
                             >
                                 Home
-                            </a>
+                            </span>
                         </span>
                         <span className="headerMenuDiv_AboutUs">
-                            <a
-                                href="#"
-                                onClick={() => onMenuClick('AboutUs')}
+                            <span onClick={() => onMenuClick('AboutUs')}
                                 className={activePage === 'AboutUs' ? 'active' : ''}
                             >
                                 About Us
-                            </a>
+                            </span>
                         </span>
                         <span className="headerMenuDiv_Services">
-                            <a
-                                href="#"
-                                onClick={() => onMenuClick('Services')}
+                            <span onClick={() => onMenuClick('Services')}
                                 className={activePage === 'Services' ? 'active' : ''}
                             >
                                 Services
-                            </a>
+                            </span>
                         </span>
                         <span className="headerMenuDiv_Career">
-                            <a
-                                href="#"
-                                onClick={() => onMenuClick('Career')}
+                            <span onClick={() => onMenuClick('Career')}
                                 className={activePage === 'Career' ? 'active' : ''}
                             >
                                 Career
-                            </a>
+                            </span>
                         </span>
                         <span className="headerMenuDiv_Contact">
-                            <a
-                                href="#"
-                                onClick={() => onMenuClick('Contact')}
+                            <span onClick={() => onMenuClick('Contact')}
                                 className={activePage === 'Contact' ? 'active' : ''}
                             >
                                 Contact
-                            </a>
+                            </span>
                         </span>
                     </div>
                 </div>
@@ -158,19 +148,19 @@ function Footer({ onMenuClick }) {
                         <span className="footerParentTop_RightTop">MENU</span>
                         <div className="footerParentTop_RightBottom">
                             <div className="footerParentTop_RightBottom_box">
-                                <span><a href="#" onClick={() => onMenuClick('Home')}>Home</a></span>
+                                <span onClick={() => onMenuClick('Home')}>Home</span>
                             </div>
                             <div className="footerParentTop_RightBottom_box">
-                                <span><a href="#" onClick={() => onMenuClick('AboutUs')}>About Us</a></span>
+                                <span onClick={() => onMenuClick('AboutUs')}>About Us</span>
                             </div>
                             <div className="footerParentTop_RightBottom_box">
-                                <span><a href="#" onClick={() => onMenuClick('Services')}>Services</a></span>
+                                <span onClick={() => onMenuClick('Services')}>Services</span>
                             </div>
                             <div className="footerParentTop_RightBottom_box">
-                                <span><a href="#" onClick={() => onMenuClick('Career')}>Career</a></span>
+                                <span onClick={() => onMenuClick('Career')}>Career</span>
                             </div>
                             <div className="footerParentTop_RightBottom_box">
-                                <span><a href="#" onClick={() => onMenuClick('Contact')}>Contact</a></span>
+                                <span onClick={() => onMenuClick('Contact')}>Contact</span>
                             </div>
                         </div>
                     </div>
