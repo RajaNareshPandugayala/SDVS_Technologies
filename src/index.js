@@ -183,19 +183,19 @@ const App = () => {
     // Determine the initial page based on the URL path
     const path = window.location.pathname;
     switch (path) {
-      case '/it_consulting':
+      case '/SDVS_Technologies/it_consulting':
         return 'ITConsulting';
-      case '/it_training':
+      case '/SDVS_Technologies/it_training':
         return 'ITTraining';
-      case '/recruitment':
+      case '/SDVS_Technologies/recruitment':
         return 'Recruitment';
-      case '/about_us':
+      case '/SDVS_Technologies/about_us':
         return 'AboutUs';
-      case '/services':
+      case '/SDVS_Technologies/services':
         return 'Services';
-      case '/career':
+      case '/SDVS_Technologies/career':
         return 'Career';
-      case '/contact':
+      case '/SDVS_Technologies/contact':
         return 'Contact';
       default:
         return 'Home'; // Default page

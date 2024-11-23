@@ -452,6 +452,7 @@
 .homeITCSPage_TopRight span:hover {
   color: black;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .homeITCSPage_BottomBox {
