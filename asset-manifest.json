@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SDVS_Technologies/static/css/main.a2ee175e.css",
-    "main.js": "/SDVS_Technologies/static/js/main.50f6a659.js",
+    "main.css": "/SDVS_Technologies/static/css/main.8801d50a.css",
+    "main.js": "/SDVS_Technologies/static/js/main.d4652b4e.js",
     "static/js/453.d860f74a.chunk.js": "/SDVS_Technologies/static/js/453.d860f74a.chunk.js",
     "static/media/img23.jpg": "/SDVS_Technologies/static/media/img23.0fcd903a485f045162f0.jpg",
     "static/media/img25.jpg": "/SDVS_Technologies/static/media/img25.94f7c507c5c77c6d7331.jpg",
@@ -18,12 +18,12 @@
     "static/media/D_goo_logo.png": "/SDVS_Technologies/static/media/D_goo_logo.1c207f9c89ef003e31a5.png",
     "static/media/B_micro_logo.png": "/SDVS_Technologies/static/media/B_micro_logo.f0f877b1c837b2413f23.png",
     "index.html": "/SDVS_Technologies/index.html",
-    "main.a2ee175e.css.map": "/SDVS_Technologies/static/css/main.a2ee175e.css.map",
-    "main.50f6a659.js.map": "/SDVS_Technologies/static/js/main.50f6a659.js.map",
+    "main.8801d50a.css.map": "/SDVS_Technologies/static/css/main.8801d50a.css.map",
+    "main.d4652b4e.js.map": "/SDVS_Technologies/static/js/main.d4652b4e.js.map",
     "453.d860f74a.chunk.js.map": "/SDVS_Technologies/static/js/453.d860f74a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2ee175e.css",
-    "static/js/main.50f6a659.js"
+    "static/css/main.8801d50a.css",
+    "static/js/main.d4652b4e.js"
   ]
 }
