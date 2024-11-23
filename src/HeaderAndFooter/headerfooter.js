@@ -90,7 +90,7 @@ function Header({ onMenuClick, activePage }) {
                     <div className="headerMenuDiv">
                         <span className="headerMenuDiv_Home">
                             <a
-                                href="#!"
+                                href="#"
                                 onClick={() => onMenuClick('Home')}
                                 className={activePage === 'Home' ? 'active' : ''}
                             >
@@ -99,7 +99,7 @@ function Header({ onMenuClick, activePage }) {
                         </span>
                         <span className="headerMenuDiv_AboutUs">
                             <a
-                                href="#!"
+                                href="#"
                                 onClick={() => onMenuClick('AboutUs')}
                                 className={activePage === 'AboutUs' ? 'active' : ''}
                             >
@@ -108,7 +108,7 @@ function Header({ onMenuClick, activePage }) {
                         </span>
                         <span className="headerMenuDiv_Services">
                             <a
-                                href="#!"
+                                href="#"
                                 onClick={() => onMenuClick('Services')}
                                 className={activePage === 'Services' ? 'active' : ''}
                             >
@@ -117,7 +117,7 @@ function Header({ onMenuClick, activePage }) {
                         </span>
                         <span className="headerMenuDiv_Career">
                             <a
-                                href="#!"
+                                href="#"
                                 onClick={() => onMenuClick('Career')}
                                 className={activePage === 'Career' ? 'active' : ''}
                             >
@@ -126,7 +126,7 @@ function Header({ onMenuClick, activePage }) {
                         </span>
                         <span className="headerMenuDiv_Contact">
                             <a
-                                href="#!"
+                                href="#"
                                 onClick={() => onMenuClick('Contact')}
                                 className={activePage === 'Contact' ? 'active' : ''}
                             >
@@ -158,19 +158,19 @@ function Footer({ onMenuClick }) {
                         <span className="footerParentTop_RightTop">MENU</span>
                         <div className="footerParentTop_RightBottom">
                             <div className="footerParentTop_RightBottom_box">
-                                <span><a href="#!" onClick={() => onMenuClick('Home')}>Home</a></span>
+                                <span><a href="#" onClick={() => onMenuClick('Home')}>Home</a></span>
                             </div>
                             <div className="footerParentTop_RightBottom_box">
-                                <span><a href="#!" onClick={() => onMenuClick('AboutUs')}>About Us</a></span>
+                                <span><a href="#" onClick={() => onMenuClick('AboutUs')}>About Us</a></span>
                             </div>
                             <div className="footerParentTop_RightBottom_box">
-                                <span><a href="#!" onClick={() => onMenuClick('Services')}>Services</a></span>
+                                <span><a href="#" onClick={() => onMenuClick('Services')}>Services</a></span>
                             </div>
                             <div className="footerParentTop_RightBottom_box">
-                                <span><a href="#!" onClick={() => onMenuClick('Career')}>Career</a></span>
+                                <span><a href="#" onClick={() => onMenuClick('Career')}>Career</a></span>
                             </div>
                             <div className="footerParentTop_RightBottom_box">
-                                <span><a href="#!" onClick={() => onMenuClick('Contact')}>Contact</a></span>
+                                <span><a href="#" onClick={() => onMenuClick('Contact')}>Contact</a></span>
                             </div>
                         </div>
                     </div>

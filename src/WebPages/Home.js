@@ -86,6 +86,7 @@ function HomePage({ onMenuClick }) {
                             <img src={HomePageSM6} className="HomePageSM6" alt="logo" />
                         </span>
                     </div>
+
                 </div>
             </div>
         </>

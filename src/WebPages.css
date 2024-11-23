@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
+  /* border: 1px solid red; */
 }
 
 .hidden {
@@ -12,23 +13,15 @@
 /**************GoTopButtonParent-Start*******************/
 
 .GoTopButtonParent {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: fixed;
+  bottom: 75px;
+  right: 35px;
+  /* border: 1px solid blue; */
 }
 
-.GoTopButtonParent_Box {
-  width: 1250px;
-  display: flex;
-  align-items: center;
-  justify-content: end;
-}
 
 .GoTopButton {
   color: white;
-  position: fixed;
-  bottom: 50px;
   background-color: #bbbbbb80;
   padding: 6px 9px;
   border-radius: 50%;
@@ -61,6 +54,7 @@
   position: fixed;
   background-color: white;
   z-index: 999;
+  /* border: 1px solid blue; */
 }
 
 
@@ -175,6 +169,7 @@
   width: 100%;
   background-color: #313137;
   color: lightgray;
+  /* border: 1px solid blue; */
 }
 
 .footerParentTop {
@@ -1524,3 +1519,10 @@
 }
 
 /******************************ContactUsPage-End*******************************/
+
+
+@media (max-width: 1200px) {}
+
+
+
+@media (max-width: 450px) {}
