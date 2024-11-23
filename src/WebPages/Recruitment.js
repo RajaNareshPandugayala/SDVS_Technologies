@@ -8,7 +8,7 @@ function HomeRecruitmentPage({ onMenuClick }) {
                 <div className="homeITCSPage_Top">
                     <div className="homeITCSPage_TopBox">
                         <span className="homeITCSPage_TopLeft">IT Staff Sourcing</span>
-                        <span className="homeITCSPage_TopRight"><a href="#!" onClick={() => onMenuClick('Home')}>Home</a> / IT Staff Sourcing</span>
+                        <span className="homeITCSPage_TopRight"><span onClick={() => onMenuClick('Home')}>Home</span> / IT Staff Sourcing</span>
                     </div>
                 </div>
                 <div className="homeITCSPage_BottomBox homeRecruitmentPage_BottomBox">

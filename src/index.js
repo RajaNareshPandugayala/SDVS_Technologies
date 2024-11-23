@@ -208,16 +208,16 @@ const App = () => {
 
     // Update the URL path without refreshing the page
     const pathMap = {
-      Home: '/SDVS_Technologies',
-      ITConsulting: '/it_consulting',
-      ITTraining: '/it_training',
-      Recruitment: '/recruitment',
-      AboutUs: '/about_us',
-      Services: '/services',
-      Career: '/career',
-      Contact: '/contact',
+      Home: '/SDVS_Technologies/',
+      ITConsulting: '/SDVS_Technologies/it_consulting',
+      ITTraining: '/SDVS_Technologies/it_training',
+      Recruitment: '/SDVS_Technologies/recruitment',
+      AboutUs: '/SDVS_Technologies/about_us',
+      Services: '/SDVS_Technologies/services',
+      Career: '/SDVS_Technologies/career',
+      Contact: '/SDVS_Technologies/contact',
     };
-    const newPath = pathMap[page] || '/';
+    const newPath = pathMap[page] || '/SDVS_Technologies/';
     window.history.pushState({}, '', newPath);
 
     // Scroll the page to the top
@@ -232,25 +232,25 @@ const App = () => {
     const handlePopState = () => {
       const path = window.location.pathname;
       switch (path) {
-        case '/it_consulting':
+        case '/SDVS_Technologies/it_consulting':
           setActivePage('ITConsulting');
           break;
-        case '/it_training':
+        case '/SDVS_Technologies/it_training':
           setActivePage('ITTraining');
           break;
-        case '/recruitment':
+        case '/SDVS_Technologies/recruitment':
           setActivePage('Recruitment');
           break;
-        case '/about_us':
+        case '/SDVS_Technologies/about_us':
           setActivePage('AboutUs');
           break;
-        case '/services':
+        case '/SDVS_Technologies/services':
           setActivePage('Services');
           break;
-        case '/career':
+        case '/SDVS_Technologies/career':
           setActivePage('Career');
           break;
-        case '/contact':
+        case '/SDVS_Technologies/contact':
           setActivePage('Contact');
           break;
         default:

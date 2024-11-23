@@ -444,12 +444,12 @@
   color: grey;
 }
 
-.homeITCSPage_TopRight a {
+.homeITCSPage_TopRight span {
   color: #a5a5a5;
   text-decoration: none;
 }
 
-.homeITCSPage_TopRight a:hover {
+.homeITCSPage_TopRight span:hover {
   color: black;
   text-decoration: underline;
 }
